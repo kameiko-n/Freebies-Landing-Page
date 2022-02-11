@@ -1,0 +1,34 @@
+.features {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+
+    &__logo {
+    margin-left: 130px;
+    }
+
+    &__content {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      max-width: 380px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 35px;
+      line-height: 50px;
+      color: #0b132a;
+    }
+    &__subtitle {
+      max-width: 425px;
+      margin-bottom: 40px;
+      font-size: 16px;
+      line-height: 30px;
+      color: #4f5665;
+    }
+    &__items {
+      padding-left: 10px;
+      content: "\2713"; 
+    }
+      
+  }

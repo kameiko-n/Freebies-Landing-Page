@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+
+
+    &__title {
+      margin-bottom: 30px;
+      max-width: 340px;
+      font-size: 16px;
+      line-height: 30px;
+      color: #4f5665;
+    }
+    &__socials {
+     display: flex;
+     justify-content: space-between;
+    }
+
+
+    &__content {
+      flex-direction: column;
+    }
+    &__logo {
+      margin-bottom: 20px;
+    }
+    &__items {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .product {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+  .engage {
+    margin-left: 100px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+  .earnmoney-item {
+    margin-left: 120px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4f5665;
+  }
